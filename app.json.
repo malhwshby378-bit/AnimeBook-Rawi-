@@ -1,0 +1,46 @@
+Action: file_editor view /app/frontend/app.json
+Observation: [Showing lines 1-43 of 43 total] /app/frontend/app.json:
+1|{
+2|  "expo": {
+3|    "name": "frontend",
+4|    "slug": "frontend",
+5|    "version": "1.0.0",
+6|    "orientation": "portrait",
+7|    "icon": "./assets/images/icon.png",
+8|    "scheme": "frontend",
+9|    "userInterfaceStyle": "automatic",
+10|    "newArchEnabled": true,
+11|    "ios": {
+12|      "supportsTablet": true
+13|    },
+14|    "android": {
+15|      "adaptiveIcon": {
+16|        "foregroundImage": "./assets/images/adaptive-icon.png",
+17|        "backgroundColor": "#000"
+18|      },
+19|      "edgeToEdgeEnabled": true
+20|    },
+21|    "web": {
+22|      "bundler": "metro",
+23|      "output": "static",
+24|      "favicon": "./assets/images/favicon.png"
+25|    },
+26|    "plugins": [
+27|      "expo-router",
+28|      [
+29|        "expo-splash-screen",
+30|        {
+31|          "image": "./assets/images/splash-icon.png",
+32|          "imageWidth": 200,
+33|          "resizeMode": "contain",
+34|          "backgroundColor": "#000"
+35|        }
+36|      ]
+37|    ],
+38|    "experiments": {
+39|      "typedRoutes": true
+40|    }
+41|  }
+42|}
+43|
+[End of file]
